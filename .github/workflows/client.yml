@@ -1,4 +1,4 @@
-name: Master Call
+name: runner Call
 
 on:
   workflow_dispatch:
@@ -70,6 +70,7 @@ jobs:
             fs.writeFileSync('cookie.txt', cookieString);
             await browser.close();
           })();
+          EOF
         env:
           LOGIN: ${{ inputs.login }}
       # Setup Cookie
