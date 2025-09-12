@@ -13,6 +13,7 @@ on:
           - zerofaucet/zerofaucet.php
           - beasthit/beasthit.php
           - truebonus/truebonus.php
+          - zanlix/zanlix.php
         required: true
       login:
         description: "login"
